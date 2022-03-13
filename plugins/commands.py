@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('📺 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('💌 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtu.be/2tek7Y5CEF4')
+                        InlineKeyboardButton('📺 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍', https://t.me/Moviez_group_mg),
+                        InlineKeyboardButton('💌 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 💌', url='https://t.me/cinemaclubchannel2ll')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,12 +99,12 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📺 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("📥 𝗢𝗧𝗧 𝗠𝗢𝗩𝗜𝗘𝗦 📥", url='https://t.me/MM2NDCHANNEL'),
+                        InlineKeyboardButton("📺 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍", https://t.me/Moviez_group_mg),
+                        InlineKeyboardButton("📥 𝗢𝗧𝗧 𝗠𝗢𝗩𝗜𝗘𝗦 📥", url='https://t.me/Cinema_Club_Post'),
                     ],
                    [
-                       InlineKeyboardButton("🍿 𝗠𝗢𝗩𝗜𝗘𝗦 📺", url='https://t.me/malayalammoviesmms'),
-                       InlineKeyboardButton("🔔 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 🔔", url='https://youtu.be/2tek7Y5CEF4'),
+                       InlineKeyboardButton("🍿 𝗠𝗢𝗩𝗜𝗘𝗦 📺", url='https://t.me/Moviez_group_mg'),
+                       InlineKeyboardButton("🔔 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 🔔", url='https://t.me/cinemaclubchannel2ll'),
                     ],
                      [
                         InlineKeyboardButton("🗣️ 𝗔𝗕𝗢𝗨𝗧", callback_data="about")
@@ -196,8 +196,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('💌 𝗦𝗨𝗕𝗔𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtu.be/2tek7Y5CEF4'),
-            InlineKeyboardButton('📥 𝗚𝗥𝗢𝗨𝗣 📥', url='https://t.me/malayalammoviesmms')
+            InlineKeyboardButton('💌 𝗦𝗨𝗕𝗔𝗖𝗥𝗜𝗕𝗘 💌', url='https://t.me/cinemaclubchannel2ll'),
+            InlineKeyboardButton('📥 𝗚𝗥𝗢𝗨𝗣 📥', url='https://t.me/Moviez_group_mg')
         ]
         ]
     await message.reply(text="<b>Developer : <a href='https://t.me/malayalammoviemmms'>꧁LXR=AMAL★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://youtu.be/2tek7Y5CEF4'>Click here</a>\nUpdate Channel : <a href='https://t.me/MALAYALAMNEWMOVIESONLY1'>𝙹𝙾𝙸𝙽 𝙽𝙾𝚆</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -206,8 +206,8 @@ async def bot_info(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('💌 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtu.be/2tek7Y5CEF4'),
-            InlineKeyboardButton('࿐ 𝗦𝗨𝗣𝗣𝗢𝗨𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 ࿐', url='https://t.me/malayalammoviesmms')
+            InlineKeyboardButton('💌 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 💌', url='https://t.me/cinemaclubchannel2ll'),
+            InlineKeyboardButton('࿐ 𝗦𝗨𝗣𝗣𝗢𝗨𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 ࿐', url='https://t.me/Moviez_group_mg')
         ]
         ]
     await message.reply(text="<b>If You Have Any Doubts And If Any Errors In Codes Or Bugs Inform Us On Our Support Group ❗️\n Use Below Buttons To Get Support Group / Update channel Links </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
